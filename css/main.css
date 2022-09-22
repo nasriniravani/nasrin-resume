@@ -6,15 +6,22 @@ h2{
 
 .button {
  color: aqua;
-}
-
-#container {
- color: rgb(171, 226, 43);
-}
-
-.button {
  background-color: rgb(87, 47, 230);
+ border-radius: 8px;
+ border: none;
+ cursor: pointer;
+ padding: 12px;
 }
+
+.button:hover,
+.button:focus {
+  background-color: yellow;
+  }
+
+.button:focus {
+border: 1px solid yellow;
+}
+
 
 .button-small {
   color: rgb(242, 46, 216);
