@@ -1,34 +1,21 @@
 /* Place CSS styles here */
 
-body {
-    background-color: #fafef9;
-  }
-  
-  .css-intro-image {
-    width: 100%;
-  }
-  
-  .css-intro-section-headline {
-    color: #666;
-  }
-  
-  .css-intro-images {
-    display: flex;
-  }
-  
-  .css-intro-button {
-    background-color: blue;
-    padding: 6px 12px;
-    border-radius: 6px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .css-intro-button:hover {
-    background-color: #110483;
-  }
-  
-  /* art button focus interaction */
-  .css-intro-button:focus {
-    border: 1px solid #110483;
-  }
+h2{
+  color: blue;
+}
+
+.button {
+ color: aqua;
+}
+
+#container {
+ color: rgb(171, 226, 43);
+}
+
+.button {
+ background-color: rgb(87, 47, 230);
+}
+
+.button-small {
+  color: rgb(242, 46, 216);
+ }
