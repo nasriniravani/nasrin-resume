@@ -3,11 +3,22 @@
 body {
   background-color: rgb(218, 213, 239);
   font-family: 'Roboto', sans-serif;
+  color: ;
 }
+
+h1,
+h2,
+h3,
+h4,
 
 h2{
   color: blue;
 }
+
+.giraffe-color {
+  color: aqua;
+}
+
 
 /* Style buttons */
 .button {
