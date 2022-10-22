@@ -3,7 +3,8 @@
 body {
   background-color: rgb(218, 213, 239);
   font-family: 'Roboto', sans-serif;
-  color: ;
+  color:black
+  font-size: 16px;
 }
 
 h1,
@@ -11,12 +12,31 @@ h2,
 h3,
 h4,
 
+h1{
+font-size: 32px;
+text-shadow: 4px 4px 5px red;
+text-align:left;
+line-height: 1.5;
+letter-spacing: 6px;
+}
+
 h2{
   color: blue;
+  font-size: 28px;
+}
+
+h3{
+  color:black;
+  font-size: 18px;
+}
+
+p {
+  font-size: 1rem;
 }
 
 .giraffe-color {
   color: aqua;
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
 
 
@@ -28,6 +48,17 @@ h2{
  border: none;
  cursor: pointer;
  padding: 12px;
+ font-size: 1rem;
+ font-weight: 300;
+ text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
 }
 
 .button:hover,
